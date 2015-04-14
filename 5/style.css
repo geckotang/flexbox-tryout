@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+.sample {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-start;
+  width: 330px;
+  height: 330px;
+  padding: 5px;
+}
+
+.sample--row {
+  flex-direction: row;
+}
+
+.sample__item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+
+.sample__text {
+  font-size: 30px;
+}

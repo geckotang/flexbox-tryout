@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.sample {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100px;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.sample__item {
+  flex: 0 0 auto;
+  min-width: 100%;
+  background-color: gold;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sample__item img{
+  vertical-align: top;
+}

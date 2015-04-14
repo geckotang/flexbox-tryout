@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.sample {
+  width: 500px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: skyblue;
+}
+.sample__item {
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: white;
+}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+.sample {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sample--rev {
+  flex-direction: row-reverse;
+}
+
+.sample__icon {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  border: 3px solid #fff;
+}
+
+.sample--rev .sample__icon{
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.sample__icon img {
+  vertical-align: top;
+}
+
+.sample__icon--center {
+  align-self: center;
+}
+
+.sample__icon--end {
+  align-self: flex-end;
+}
+
+.sample__text {
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
